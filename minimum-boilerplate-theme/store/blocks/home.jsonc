@@ -1,15 +1,37 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
-      "rich-text"
+      "rich-text",
+      "info-card",
+      "info-card#2"
     ]
   },
-  "rich-text": { 
-    "props": { 
+  "rich-text": {
+    "props": {
       "text": "VTEX Store Framework",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-1"
+    }
+  },
+  "info-card": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://dreamscape.vteximg.com.br/arquivos/audia3",
+      "headline": "Audi",
+      "callToActionText": "Descubra",
+      "subhead": "Modernidade. Conforto"
+    }
+  },
+  "info-card#2": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://dreamscape.vteximg.com.br/arquivos/audia3red",
+      "headline": "Audi",
+      "callToActionText": "Saiba mais",
+      "subhead": "Segurança. Estilo"
     }
   }
 }
