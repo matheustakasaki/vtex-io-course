@@ -5,7 +5,7 @@
       "flex-layout.row",
       "responsive-layout.desktop#desktop",
       "responsive-layout.mobile#mobile",
-      "tab-layout"
+      "tab-layout#home"
     ]
   },
   // Flex Layout
@@ -71,32 +71,32 @@
       "textAlignment": "CENTER"
     }
   },
-  "tab-layout": {
+  "tab-layout#home": {
     "children": [
-      "tab-list",
-      "tab-content"
+      "tab-list#home",
+      "tab-content#home"
     ]
   },
-  "tab-list": {
+  "tab-list#home": {
     "children": [
-      "tab-list.item#1",
-      "tab-list.item#2"
+      "tab-list.item#home1",
+      "tab-list.item#home2"
     ]
   },
-  "tab-content": {
+  "tab-content#home": {
     "children": [
       "tab-content.item#1",
       "tab-content.item#2"
     ]
   },
-  "tab-list.item#1": {
+  "tab-list.item#home1": {
     "props": {
       "tabId": "majorAppliances",
       "label": "Major Appliances",
       "defaultActiveTab": true
     }
   },
-  "tab-list.item#2": {
+  "tab-list.item#home2": {
     "props": {
       "tabId": "electronics",
       "label": "Electronics"
