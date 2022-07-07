@@ -5,7 +5,8 @@
       "flex-layout.row",
       "responsive-layout.desktop#desktop",
       "responsive-layout.mobile#mobile",
-      "tab-layout#home"
+      "tab-layout#home",
+      "modal-trigger#first"
     ]
   },
   // Flex Layout
@@ -71,6 +72,7 @@
       "textAlignment": "CENTER"
     }
   },
+  // Tab Layout
   "tab-layout#home": {
     "children": [
       "tab-list#home",
@@ -130,6 +132,28 @@
       "text": "Área do conteúdo da tab-list.item com  tabId = electronics",
       "textPosition": "CENTER",
       "font": "t-heading-3"
+    }
+  },
+  // Modal Layout
+  "modal-trigger#first": {
+    "children": [
+      "rich-text#trigger",
+      "modal-layout#first"
+    ]
+  },
+  "rich-text#trigger": {
+    "props": {
+      "text": "CLIQUE AQUI!"
+    }
+  },
+  "modal-layout#first": {
+    "children": [
+      "rich-text#hello"
+    ]
+  },
+  "rich-text#hello": {
+    "props": {
+      "text": "Olá!"
     }
   }
 }
