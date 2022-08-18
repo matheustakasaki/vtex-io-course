@@ -1,7 +1,7 @@
 {
-  "vendor": "dreamscape",
-  "name": "minimumtheme",
-  "version": "0.0.0",
+  "vendor": "distribuidorasika",
+  "name": "tema",
+  "version": "0.0.4",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
