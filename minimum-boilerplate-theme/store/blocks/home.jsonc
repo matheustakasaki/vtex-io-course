@@ -1,6 +1,7 @@
 {
   "store.home": {
     "blocks": [
+      "countdown",
       "info-card#clearance",
       "info-card#vintage",
       "slider-layout#home",
