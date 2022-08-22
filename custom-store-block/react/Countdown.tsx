@@ -4,7 +4,7 @@ interface CountdownProps { }
 
 const Countdown: StorefrontFunctionComponent<CountdownProps> = ({ }) => {
   return (
-    <h1>Componente de Countdown</h1>
+    <h1>Componente de Countdown Teste</h1>
   )
 }
 
