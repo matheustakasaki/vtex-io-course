@@ -1,0 +1,8 @@
+{
+  "@vtex/prettier-config": [
+    "error",
+    {
+      "endOfLine": "auto"
+    }
+  ]
+}

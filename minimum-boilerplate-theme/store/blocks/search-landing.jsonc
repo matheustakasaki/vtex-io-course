@@ -2,8 +2,6 @@
 {
     "store.custom#landing": {
         "blocks": [
-            "countdown.title",
-            "countdown",
             "search-result-layout.customQuery"
         ]
     },
