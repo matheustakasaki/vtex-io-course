@@ -2,6 +2,8 @@
 {
   "store.product": {
     "children": [
+      "countdown.title",
+      "countdown",
       "condition-layout.product",
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main"
