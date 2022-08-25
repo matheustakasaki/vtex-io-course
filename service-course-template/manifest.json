@@ -1,0 +1,19 @@
+{
+  "name": "sikabackendapp",
+  "vendor": "distribuidorasika",
+  "version": "0.0.1",
+  "title": "Backend App - Sika",
+  "description": "Reference app for the Backend Sika Website",
+  "builders": {
+    "node": "6.x"
+  },
+  "scripts": {
+    "prereleasy": "bash lint.sh"
+  },
+  "credentialType": "absolute",
+  "policies": [],
+  "dependencies": {
+    "vtex.events-example": "0.x"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
