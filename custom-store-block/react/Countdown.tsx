@@ -37,7 +37,7 @@ const Countdown: StorefrontFunctionComponent<CountdownProps> = ({ }) => {
   if (!product) {
     return (
       <div>
-        <span>There is no product context.</span>
+        <span>Não há um contexto de produto.</span>
       </div>
     )
   }
